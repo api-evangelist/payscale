@@ -1,9 +1,32 @@
 aid: payscale
 name: PayScale
-description: PayScale is a company surfaced as a portfolio company of insight-partners, sapphire-ventures,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: >-
+  PayScale is a compensation intelligence and salary data company that helps
+  organizations and individuals price jobs, benchmark pay, and manage
+  compensation. Its platform combines a Peer Data Ecosystem of daily-refreshed,
+  HRIS-sourced salary data across thousands of organizations and millions of
+  employee records with survey-based and crowdsourced pay data spanning tens of
+  thousands of jobs across many countries. Products include the Payscale Ascent
+  compensation management platform, market pricing and benchmarking datasets
+  (Peer Global, Peer Enhanced, Peer Industry, Peer Markets), pay equity
+  analytics, and consumer-facing salary research tools. This profile was
+  surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline;
+  PayScale publishes no public developer API, developer portal, or SDKs at this
+  time, so this entry captures company identity, links, and domain-security
+  posture rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/payscale/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/678b9f42ff433e48155d0586/6826b33f1bbb33cc0befc00f_payscale-create-confidence-in-your-compensation.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Compensation
+- Salary Data
+- Human Resources
+- Benchmarking
+- Pay Equity
+- Compensation Management
+- Workforce Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +54,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/payscale-domain-security.yml
 - type: Website
   url: https://www.payscale.com/
+- type: About
+  url: https://www.payscale.com/about/
+- type: Blog
+  url: https://www.payscale.com/compensation-trends/
+- type: TermsOfService
+  url: https://www.payscale.com/about/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.payscale.com/about/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
